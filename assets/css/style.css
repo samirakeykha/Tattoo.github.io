@@ -9,7 +9,7 @@ body
 {
     font-family: lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #3a3a3a ;
 }
 h1,h2
 {
@@ -22,4 +22,29 @@ h1,h2
 {
 float: left;
 font-size: 280%;
+}
+#menu
+{
+font-size: 110%;
+letter-spacing: 4px;
+}
+#menu #logo{
+    line-height: 75px;
+
+}
+#menu li
+{
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+.active{
+    border-bottom: 1px solid #3a3a3a;
 }
