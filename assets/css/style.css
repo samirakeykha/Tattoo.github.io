@@ -223,12 +223,51 @@ footer {
    
 }
 
-.form-section {
-    clear: left;
-    background: url('https://www.stockvault.net/data/2016/11/26/217200/preview16.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+#contact-us-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#dough-image{
+    height: 600px;
+    width: 100%;
+    background: url('../images/F-Tattoo.jpg') no-repeat center center;
+}
+
+
+.text-input
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+.submit-button {
+    background-color: gray;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+.submit-button:hover {
+    background-color: #5f45a0;
+}
+
+
+.contact_us_form {
+    border-radius: 5px;
+    background-color: rgba(195, 74, 126, 0.8);
+    padding: 40px;
+    width: 50%;
+    margin: 10% auto;
 }
 
 @media screen and (max-width: 1200px) {
