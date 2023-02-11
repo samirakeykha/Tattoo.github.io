@@ -220,7 +220,15 @@ footer {
 }
 #photos >img{
     width: 100;
-    height: 100;
+   
+}
+
+.form-section {
+    clear: left;
+    background: url('https://www.stockvault.net/data/2016/11/26/217200/preview16.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
 
 @media screen and (max-width: 1200px) {
